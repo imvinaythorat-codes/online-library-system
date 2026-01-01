@@ -108,7 +108,7 @@ a {
   box-shadow: var(--shadow-soft);
 }
 
-/* Small screens: stack the columns. */
+/* Small screens: stack the columns . */
 @media (max-width: 840px) {
   .app-main {
     padding-inline: 16px;
