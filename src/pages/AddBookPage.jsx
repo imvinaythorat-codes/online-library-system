@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { addBook, selectCategories } from '../store/booksSlice';
-
+// Form page for adding a new book to the Redux list.
 const FALLBACK_CATEGORIES = [
   'Fiction',
   'Non-Fiction',
