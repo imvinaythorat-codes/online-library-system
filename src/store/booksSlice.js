@@ -117,6 +117,7 @@ const initialBooks = [
   },
 ];
 
+// Slice manages the array of books and exposes an action to add a new one.
 const booksSlice = createSlice({
   name: 'books',
   initialState: {
