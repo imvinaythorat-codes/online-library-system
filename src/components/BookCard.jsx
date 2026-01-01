@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+// Reusable card used on both the Home and Browse pages.
 export default function BookCard({ book, isHighlighted = false }) {
   return (
     <article
