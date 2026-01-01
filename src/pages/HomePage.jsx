@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { selectAllBooks, selectCategories } from '../store/booksSlice';
 import BookCard from '../components/BookCard';
-
+// Home page shows a welcome message, category pills and a row of popular books.
 export default function HomePage() {
   const books = useSelector(selectAllBooks);
   const categories = useSelector(selectCategories);
