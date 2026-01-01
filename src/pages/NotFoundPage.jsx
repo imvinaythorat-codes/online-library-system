@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-
+// 404 page is rendered without the shared header and shows the invalid URL.
 // This component is used outside the main layout, so it intentionally has no header.
 export default function NotFoundPage() {
   const location = useLocation();
