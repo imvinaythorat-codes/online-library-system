@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { selectAllBooks, selectCategories } from '../store/booksSlice';
 import BookCard from '../components/BookCard';
-
+// Browse page lets the user filter by category and search by title or author.
 // Main listing page where students can show filtering and searching logic.
 export default function BrowseBooksPage() {
   const allBooks = useSelector(selectAllBooks);
